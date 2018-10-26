@@ -1,0 +1,180 @@
+/* Main features of the page */
+
+body {
+	font-family: 'Niramit', sans-serif;
+	color: #171717;
+}
+
+/* Headlines */
+
+h2, h3, h4, h5 {
+	color: #171717;
+}
+
+
+.login-page-heading,
+.useraccount-heading,
+.thankyou-heading,
+.product-gallery-heading,
+.shopping-cart-heading,
+.checkout-page-heading,
+.overview-heading,
+.shipping-details-heading {
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+
+.customer-information-heading {
+	font-size: 1.5em;
+}
+
+/* Navigation */
+
+#login-link,
+#logout-link {
+	padding: 10px;
+}
+
+#myaccount-link {
+	margin-left: auto;
+}
+
+/* Links styling */
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: grey;
+	transition: all 0.3s ease-out;
+	text-decoration: none;
+}
+
+/* Product gallery page */
+
+.product-gallery {
+	padding-bottom: 150px;
+}
+
+/* Login page */
+
+.login-page {
+	padding-bottom: 150px;
+}
+
+
+/* User account page */
+
+.sidebar-information {
+	list-style: none;
+}
+
+.customer-information {
+	padding-bottom: 20px;
+}
+
+.useraccount-page {
+	padding-bottom: 150px;
+}
+
+.useraccount-page .card {
+	margin: 20px;
+}
+
+/* Buttons */
+
+.btn {
+	background-color: #7EA16B;
+	border-color: #7EA16B;
+}
+
+.btn:hover {
+	background-color: #C3D898;
+	border-color: #C3D898;
+}
+
+.btn.btn-primary.btn-md:active {
+	background-color: #C3D898;
+	border-color: #C3D898;
+}
+
+.btn.btn-primary.btn-md:focus {
+	box-shadow: 0 0 0 0.2rem rgb(195, 216, 152);
+}
+
+
+/* Forms */
+
+form {
+	top: 20px;
+	padding-bottom: 2em;
+}
+
+/* Shopping cart */
+
+.shopping-cart-page,
+.checkout-page {
+	padding-bottom: 150px;
+}
+
+.shopping-cart {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.basket-empty {
+	background-color: #EEE;
+	margin-top: 20px;
+}
+
+.basket-empty p {
+	padding: 25px 0;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+
+.basket-empty .button-basket .btn {
+	margin-bottom: 25px;
+	letter-spacing: .5px;
+}
+
+.price-overview {
+	padding-bottom: 1em;
+}
+
+.price-overview ul {
+	padding: 0;
+}
+.price-overview li {
+	line-height: 1.250em;
+	padding-bottom: 0.3125em;
+}
+.price-overview span {
+	width: 10.6875em;
+	display: inline-block;
+}
+
+/* Footer */
+
+#footer {
+    height: 100px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.payment-methods-icons i {
+	font-size: 1.5em;
+}
+
+
+
+
+
+
